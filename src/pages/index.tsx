@@ -1,3 +1,5 @@
-export default function Home() {
-  return <div>Hello world!</div>
+import MainTemplate from 'templates/Main'
+
+export default function Main() {
+  return <MainTemplate />
 }
